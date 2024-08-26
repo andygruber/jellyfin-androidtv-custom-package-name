@@ -1,8 +1,8 @@
 name: Repo / Reply stale issue
 
 on:
-  schedule:
-    - cron: '30 3 * * *'
+  # schedule:
+  #   - cron: '30 3 * * *'
   workflow_dispatch:
 
 permissions:
